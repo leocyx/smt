@@ -2,7 +2,7 @@
   "name": "smt",
   "version": "0.0.1",
   "author": "leocyx",
-  "main": "mtrack.js",
+  "main": "main.js",
   "description": "A simple money track system",
   "devDependencies": {
     "mocha": "^4.0.0"
@@ -14,5 +14,8 @@
     "type": "git",
     "url": "https://github.com/leocyx/smt"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.7.10"
+  }
 }
