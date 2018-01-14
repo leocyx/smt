@@ -13,12 +13,12 @@ describe('application launch', function () {
      assert.equal('160',M.leisure('10'))
     })
     it('show date and description and money',function(){
-        assert.equal('1/11 | 搭捷運 | 15元',M.event_description('搭捷運','15'))
+        assert.equal('1/14 | 搭捷運 | 15元',M.event_description('搭捷運','15'))
        })
        it('show date and description and money',function(){
-        assert.equal('1/11 | 午餐 | 65元',M.event_description('午餐','65'))
+        assert.equal('1/14 | 午餐 | 65元',M.event_description('午餐','65'))
        })
        it('show date and description and money',function(){
-        assert.equal('1/11 | 買衣服 | 790元',M.event_description('買衣服','790'))
+        assert.equal('1/14 | 買衣服 | 790元',M.event_description('買衣服','790'))
        })
 })
